@@ -11,9 +11,8 @@
 
 <body>
     <header>
-
         <div>
-            <img id="logoOscuro" src="imagenes/logoOscuro.png" alt="Logo de Portafolio">
+            <img id="logoOscuro" src="imagenes/logoOscuro.png" alt="Logo oscuro">
         </div>
 
         <nav>
@@ -21,56 +20,72 @@
             <a href="#seccionProyectos">Proyectos</a>
             <a href="#piePagina">Contacto</a>
         </nav>
-
     </header>
 
     <main>
+        <section id="seccionHero">
+            <div class="tituloHero">
+                <h1>¡Hola mundo!<br>Soy Alba</h1>
+            </div>
+        </section>
 
         <section id="seccionSobreMi">
             <h2>Sobre mí</h2>
             <p>Me llamo Alba y soy estudiante de Desarrollo de Aplicaciones Web. Me especializo en el diseño y
-                desarrollo de interfaces
-                web y sigo ampliando mis conocimientos para aplicarlos en proyectos reales.</p>
+                desarrollo de interfaces web y sigo ampliando mis conocimientos para aplicarlos en proyectos reales.</p>
         </section>
 
         <section id="seccionProyectos">
-
             <h2>Proyectos</h2>
 
             <div class="contenedorProyectos">
 
                 <div class="proyecto">
-
-                    <a
-                        href="https://www.figma.com/design/hsVZsdWKxWtCN0QdIZLHjN/Portfolio?node-id=11-2&t=vRNvSrq220Fc29WM-1">Figma</a>
+                    <img id="imagenPortafolio" src="imagenes/portafolio.png" alt="Portafolio">
                     <p>Portafolio</p>
+                    <div class="contenedorBotonesProyectos">
+                        <a href="https://www.figma.com/design/hsVZsdWKxWtCN0QdIZLHjN/Portfolio?node-id=11-2&t=vRNvSrq220Fc29WM-1"
+                            class="boton">Figma</a>
+                        <a href="" class="boton">Github</a>
+                    </div>
+
                 </div>
 
                 <div class="proyecto">
-
-                    <a
-                        href="https://github.com/Albabf8/GestionFechas">Github</a>
-                    <a
-                        href="https://albabf8.github.io/GestionFechas/">Código</a>
+                    <img id="imagenGestionFechas" src="imagenes/gestionFechas.png" alt="Gestión de fechas">
                     <p>Gestión de fechas</p>
+                    <div class="contenedorBotonesProyectos">
+                        <a href="https://github.com/Albabf8/GestionFechas" class="boton">Github</a>
+                        <a href="https://albabf8.github.io/GestionFechas/" class="boton">Código</a>
+                    </div>
                 </div>
 
                 <div class="proyecto">
 
                     <p>Aventura en el reino de JS</p>
+                    <div class="contenedorBotonesProyectos">
+                        <a href="" class="boton">Github</a>
+                        <a href="" class="boton">Código</a>
+                    </div>
                 </div>
 
+                <div class="proyecto">
+
+                    <p>Panel de usuario</p>
+                    <div class="contenedorBotonesProyectos">
+                        <a href="" class="boton">Github</a>
+                        <a href="" class="boton">Código</a>
+                    </div>
+                </div>
             </div>
         </section>
-
     </main>
 
-    <!--Pie de la página-->
-
     <footer id="piePagina">
-        <img id="logoGithub" src="imagenes/logoGithub.png" alt="Logo GitHub">
-        <p>© 2025 Portafolio.</p>
+        <a href="https://github.com/Albabf8">
+            <img id="logoGithub" src="imagenes/logoGithub.png" alt="Logo GitHub">
+        </a>
+        <p>© 2025 Alba - Portafolio</p>
     </footer>
 </body>
-
 </html>
